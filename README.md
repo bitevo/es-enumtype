@@ -1,7 +1,7 @@
 ## Installation
 
-TBD
+TBA
 
 ## Usage
 
-TBD
+TBA
