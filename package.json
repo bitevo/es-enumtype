@@ -1,12 +1,14 @@
 {
-  "name": "enum-type",
+  "name": "enumtype",
   "version": "0.0.1",
-  "description": "Enumeration implementation",
+  "description": "Enumeration type implementation",
   "main": "lib/enum.js",
   "scripts": {
     "test": "semistandard && mocha --full-trace lib/*.spec.js",
     "lint": "semistandard --fix",
-    "precommit": "npm test"
+    "precommit": "npm run-script lint",
+    "prepush": "npm test",
+    "prepublish": "npm test"
   },
   "keywords": [
     "enum",
