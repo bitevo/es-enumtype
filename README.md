@@ -1,6 +1,6 @@
 # Enum Type for ECMAScript
 
-This enum type implementation focuses on elegance of code, avoids unnecessary features and ambiguity. Thus things like nested enum will never implemented.
+This enum type implementation focuses on elegance of code, avoids unnecessary features and ambiguity. Thus things like nested enum will never be implemented.
 
 ## Installation
 
